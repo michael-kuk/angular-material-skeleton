@@ -1,0 +1,31 @@
+{
+  "server": {
+    "port": 8888,
+    "livereload": true
+  },
+  "paths": {
+    "scripts": [
+      "assets/js/**/*.module.js",
+      "assets/js/**/*.js"
+    ],
+    "styles": "assets/scss/**/*.scss",
+    "mainStyle": "assets/scss/app.scss",
+    "images": "assets/img/**/*",
+    "fonts": "assets/components/**/*.{woff,woff2,eot,eof,otf,ttf,svg,std,cff,afm,lwfn,ffil,pfm,pfb,pro,xsf}",
+    "templates": "assets/templates/**/*.html",
+    "index": "assets/index.html",
+    "dest": "www"
+  },
+  "sass":{
+    "outputStyle": "compressed"
+  },
+  "htmlmin": {
+    "collapseWhitespace": true,
+    "keepClosingSlash": true,
+    "removeRedundantAttributes": true
+  },
+  "templatecache": {
+    "root": "templates",
+    "module": "main"
+  }
+}

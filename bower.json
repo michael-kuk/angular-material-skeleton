@@ -1,0 +1,21 @@
+{
+  "name": "material-skeleton",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Michael Kuk"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-material": "^1.0.5"
+  }
+}
